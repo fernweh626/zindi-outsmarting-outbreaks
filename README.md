@@ -1,6 +1,6 @@
 # Outsmarting Outbreaks Challenge — Competition Design & Benchmark
 
-> **My role:** Competitions Lead at [Zindi](https://zindi.world) — I ran this competition end to end and wrote the starter notebook participants built from.
+> **My role:** Competitions Lead at [Zindi](https://zindi.world) (April 2019 – November 2025) — I owned this competition as a product, from problem definition through launch, and built the starter notebook participants built from.
 > **Competition page:** https://zindi.world/competitions/outsmarting-outbreaks-challenge
 > **Data (not redistributed here):** https://zindi.world/competitions/outsmarting-outbreaks-challenge/data
 
@@ -9,6 +9,13 @@ Forecast the number of **waterborne / water-related disease cases** reported by 
 
 - **Partner / sponsor:** TODO
 - **Decision this supports:** TODO (e.g. resource allocation by facility/district)
+
+## Product thinking
+- **Users:** (1) data scientists on Zindi, mostly across Africa, ranging from first-timers to experts; (2) the health authority / partner who needs usable forecasts. TODO: confirm
+- **Job to be done:** turn a real-world problem into a well-posed ML task that participants can start on in minutes and that produces a model the partner can use.
+- **Success metrics:** participation and submission volume, score progression above the benchmark, solution quality for the partner. TODO: add actuals
+- **Key trade-offs:** a benchmark strong enough to be credible but weak enough to leave headroom; free-tier compute vs model power; a real-world data messiness vs a clean, learnable task.
+- **Technical decisions I made or shaped:** data format and packaging, evaluation metric, validation split, benchmark model. TODO: confirm and add detail
 
 ## My contribution (product & delivery)
 - Ran the competition lifecycle. TODO: edit to what you actually owned
