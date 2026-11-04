@@ -3,6 +3,7 @@
 > **My role:** Competitions Lead at [Zindi](https://zindi.world) (April 2019 – November 2025). I ran this competition end to end as a product: data-owner engagement, data review, challenge design, metric choice, participant tooling and benchmark.
 > **Competition page:** https://zindi.world/competitions/outsmarting-outbreaks-challenge
 > **Data (not redistributed here):** https://zindi.world/competitions/outsmarting-outbreaks-challenge/data
+> **Winning solution write-up (I helped the winners write it up and published it):** https://zindi.world/learn/winning-solution-to-sua-outsmarting-outbreaks-challenge
 
 ## The problem
 Build a machine-learning model that predicts outbreaks of **climate-sensitive waterborne diseases**, using data on water sources, toilet quality, waste management, health facilities and climate from 2019 to 2023. The target is the number of cases per health facility, disease and month, across diseases including cholera, diarrhea, dysentery, typhoid, malaria, schistosomiasis and intestinal worms.
@@ -25,6 +26,7 @@ The aim is to let governments and health organisations **intervene earlier and i
 - **Data review and quality checks** before launch.
 - **Challenge design:** wrote and published the challenge description, and chose the error metric.
 - **Participant tooling:** wrote the starter notebook and benchmark (below).
+- **Sharing the learning:** assisted the winning team in writing up their solution and published it on Zindi.
 - **Making cloud credits inclusive.** AWS provided credits for participants to build on Amazon SageMaker. A large share of our community doesn't have a credit card, which AWS sign-up requires, and we did not want to exclude anyone. With our CTO and Zero-One (our development team), we created multiple accounts under a separate Zindi AWS account. I then distributed the environments to teams using mail merge and SQL, matching the right VMs to the right teams.
 
 ## Approach (benchmark)
