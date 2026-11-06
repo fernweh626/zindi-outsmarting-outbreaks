@@ -13,6 +13,7 @@ The aim is to let governments and health organisations **intervene earlier and i
 ## Partners
 - **Sponsors:** AWS, UNESCO and IRCAI
 - **Data providers:** Sokoine University of Agriculture (SUA), Tanzania
+- **Programme:** this challenge was one of two use cases in the **AWS AI for Equity Challenge** (September 2024 – February 2025), run by Zindi, IRCAI and AWS to apply AI to the UN Sustainable Development Goals in Africa. Round 1 invited organisations worldwide to propose data and AI challenges using Amazon Sustainability Data Initiative (ASDI) datasets. SUA was a Round 1 winner (with $25,000 in AWS credits), and its proposal became this competition.
 - **Partner goal:** demonstrate to government what is possible with this data and a working model. Planned next steps were to put the best solution into a **dashboard** and take it to government.
 
 ## Product thinking
@@ -40,7 +41,16 @@ The aim is to let governments and health organisations **intervene earlier and i
 ## Results & impact
 - **Benchmark MAE:** 12.41 on the leaderboard
 - **Winning MAE:** about 6.5
-- Participants, submissions, and downstream partner outcomes (dashboard, government engagement): to be added.
+- **Programme reach (across both AI for Equity challenges):** about 1,300 users, 90 countries (35 African), 12% women, 16,539 submissions, and an estimated 63,000+ hours of data-science work.
+- **Downstream:** the partners' planned next step is the dashboard and government engagement described above.
+
+## What the winners found
+From the programme debrief report: the top solutions used **PCA** on the numerical features, and found that the **3 nearest toilet, dump-site and hospital locations** were the strongest contributing factors, with **clustering of locations** also helping. The winning model was chosen for its speed on large data and for capturing location-specific temporal patterns. Notably, this is a richer spatial treatment than the starter's single nearest neighbour.
+
+**Programme lessons from the report:**
+- Curated, real rural-African datasets, put to novel use, were a major draw. Real-world problem statements drove high enrolment.
+- All top participants used the ASDI remote-sensing datasets, which supports their value for disease forecasting.
+- Pairing Zindi's community, IRCAI's academic expertise and AWS resources produced an outsized impact in a space known for "good ideas and bad execution".
 
 ## What I learned: a flaw in my starter notebook
 During the competition a participant [pointed out](https://zindi.world/competitions/outsmarting-outbreaks-challenge/discussions/24226) that the starter notebook's data linkage was wrong. My join matched each facility to the **geographically nearest** toilet, waste and water record, but **ignored the date**. A December 2022 facility record could therefore be paired with, for example, a water record from December 2023. The participant found that dropping the linked datasets scored better than the starter, and others in the thread reported that scores of around 6 were reachable without the linkage at all.
